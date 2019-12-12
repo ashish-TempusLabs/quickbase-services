@@ -1,0 +1,24 @@
+{
+  "name": "qb-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc",
+    "bundle": "npm i && npm run build && zip -r $(pwd).zip ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^10.11.3",
+    "aws-lambda": "^0.1.2",
+    "aws-sdk": "^2.583.0",
+    "bestzip": "^2.1.5",
+    "quickbase": "^2.11.2",
+    "triple-beam": "^1.3.0",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.2",
+    "winston": "^3.2.1"
+  }
+}
