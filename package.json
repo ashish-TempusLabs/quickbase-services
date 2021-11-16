@@ -13,7 +13,7 @@
   "dependencies": {
     "@types/node": "^10.11.3",
     "aws-lambda": "^0.1.2",
-    "aws-sdk": "^2.583.0",
+    "aws-sdk": "^2.814.0",
     "bestzip": "^2.1.5",
     "quickbase": "^2.11.2",
     "triple-beam": "^1.3.0",
